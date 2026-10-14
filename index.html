@@ -41,7 +41,9 @@
   <div class="transport">
     <button class="tbtn" id="rewindBtn" title="Restart">⏮</button>
     <button class="tbtn play" id="playBtn" title="Play/Pause">▶</button>
+    <!--- NO BOTON DE GRABAR ---- >
     <button class="tbtn record" id="recordBtn" title="Record (Freeplay mode only)">●</button>
+    --->
     <button class="tbtn download-midi" id="downloadMidiBtn" title="Download recording as .mid">⬇</button>
     <button class="tbtn" id="panelToggleBtn" title="Settings">⚙</button>
   </div>
@@ -55,6 +57,8 @@
       <button class="tracks-tab active" id="tabBuiltIn" type="button">🎵 Built-in</button>
       <button class="tracks-tab" id="tabRecent" type="button">🕐 Recent</button>
     </div>
+    
+    <!---- Lista songs MIDI incluidas PLAYING
     <div id="panelBuiltIn">
     <div class="tracks-wrap">
       <button class="tracks-btn" id="tracksBtn" type="button">
@@ -89,6 +93,8 @@
           <span class="ti-meta">Beethoven</span>
         </button>
       </div>
+
+    ---->
     </div>
     </div>
   <!---- f  -- --->
@@ -98,6 +104,7 @@
       <div class="recent-empty" id="recentEmpty">No recent songs yet.<br>Upload a .mid file and it will stay here — even after you close the browser.</div>
     </div>
 
+  <!----MODE  freeplay - normal && ----
     <h3 style="margin-top:10px;">Mode</h3>
     <div class="row">
       <button class="btn active" id="modeNormal">Normal</button>
@@ -105,12 +112,14 @@
       <button class="btn" id="modeFreeplay">Freeplay</button>
     </div>
 
+  
     <h3>Practice Hands</h3>
     <div class="row">
       <button class="btn hand-lh" id="handLH">Left</button>
       <button class="btn hand-rh" id="handRH">Right</button>
       <button class="btn hand-both active" id="handBoth">Both</button>
     </div>
+  ----->
 
     <h3>Speed</h3>
     <div class="slider-wrap">
